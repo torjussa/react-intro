@@ -1,13 +1,25 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 
+
+/*
+* Handler om å bestemme hva du skal vise gitt conditions.
+*
+* Kan gjøres med tradisjonell if/else eller in line if setninger.
+*
+*
+* */
 
 export const ConditionalRender = () => {
-    const shouldShow = false
-    const [isLoading, setIsLoading] = true
 
-    useEffect(() => {
-        setTimeout(setIsLoading(false), 400)
-    }, []);
-
-    return isLoading ?  <div> loading..</div>: <div>Dette vil jeg egentlig vise</div>
+    return <></>
 }
+
+
+
+/*
+
+const [isLoading, setIsLoading] = useState(true)
+useEffect(() => {
+    setTimeout(() => setIsLoading(false), 2000)
+}, []);
+*/
