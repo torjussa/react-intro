@@ -1,0 +1,30 @@
+{"items": [
+  {
+    "label": "Brød",
+    "id": "1"
+  },
+  {
+    "label": "Epler",
+    "id": "2"
+  },
+  {
+    "label": "Ost",
+    "id": "3"
+  },
+  {
+    "label": "Banan",
+    "id": "4"
+  },
+  {
+    "label": "Havregryn",
+    "id": "5"
+  },
+  {
+    "label": "Peanøttsmør",
+    "id": "6"
+  },
+  {
+    "label": "Tomat",
+    "id": "7"
+  }
+]}
